@@ -67,34 +67,26 @@ pip install -r requirements.txt
 
 ###### 2. Rodar a Aplicação
 Execute a aplicação Streamlit:
-bash
-streamlit run src/app.py
+- streamlit run src/app.py
 
 ###### Configuração do Ambiente Virtual (venv)
 Siga os passos abaixo, para configurar o ambiente virtual e instalar as dependências do projeto:
 1. Criar ambiente virtual
 No terminal, execute o seguinte comando na raiz do projeto:
-bash
-python -m venv venv
+- python -m venv venv
 2. Ativar Ambiente Virtual
 - Windowns
-bash
 venv\Scripts\activate
 - Linux/MacOS
-bash
 source venv/bin/activate
 3. Instalar Dependências
-bash
-pip install -r requirements.txt
+- pip install -r requirements.txt
 4. Testar Configuração
-bash
-python src/simpsons.py
+- python src/simpsons.py
 5. Executar arquivos
 - Arquivos Python:
-bash
 python src/nome_do_arquivo
 - Arquivos Streamlit:
-bash
 streamlit run nome_do_arquivo
 
 ##### Resultados 
