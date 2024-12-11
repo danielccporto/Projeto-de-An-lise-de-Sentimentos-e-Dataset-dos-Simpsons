@@ -1,0 +1,10 @@
+# Senhas API
+.env 
+
+#Arquivos gerados pelos códigos 
+data/results/*
+/resultados.json
+/series_data.csv
+
+#venv 
+venv/ 
